@@ -1,10 +1,9 @@
-var sexo = parseInt(prompt("Informe o seu sexo: "))
-var F 
-var M
-if(sexo=="F"){
-    alert("Feminino")
-}else if (sexo=="M"){
-    alert("Masculino")
-}else{
+var sexo = prompt("Informe seu sexo (f / m): ")
+
+if(sexo == "m"){
+    alert("Seu sexo é masculino")
+} else if (sexo == "f"){
+    alert("Seu sexo é feminino")
+} else {
     alert("Sexo invalido")
-}
+}    
